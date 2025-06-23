@@ -632,3 +632,7 @@ header {
         margin-top: 18px;
     }
 }
+
+a {
+    text-decoration: none;
+}
