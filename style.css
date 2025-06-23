@@ -64,7 +64,8 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 60px 48px 40px 48px;
-    background: linear-gradient(90deg, #fff 60%, #f7f7f7 100%);
+    /* background: linear-gradient(90deg, #fff 60%, #f7f7f7 100%); */
+    background-color: white;
     min-height: 420px;
 }
 .hero-left {
@@ -113,10 +114,10 @@ header {
     align-items: center;
 }
 .sneaker-img {
-    width: 370px;
+    width: 70vh;
     max-width: 100%;
     filter: drop-shadow(0 10px 40px rgba(0,0,0,0.13));
-    transform: rotate(-18deg);
+    transform: rotate(25deg);
 }
 
 .service-overview {
