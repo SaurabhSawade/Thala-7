@@ -114,7 +114,6 @@ header {
 }
 .sneaker-img {
     width: 70vh;
-    padding-left: 10%;
     max-width: 100%;
     filter: drop-shadow(0 10px 40px rgba(0,0,0,0.13));
     transform: rotate(18deg);
