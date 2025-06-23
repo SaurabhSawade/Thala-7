@@ -392,6 +392,7 @@ header {
 
 .cart-right {
     flex: 1.2;
+    /* height: 50%; */
     display: flex;
     justify-content: flex-end;
 }
@@ -448,21 +449,26 @@ header {
     font-size: 1.15rem;
     color: #222;
     margin-top: 18px;
+    margin-bottom: 15px;
 }
 .summary-total {
     font-size: 1.3rem;
     color: #2563eb;
 }
 .paynow-btn {
-    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 92%;
     background: orange;
     color: #fff;
     border: none;
     border-radius: 10px;
-    padding: 16px 0;
+    padding: 16px ;
+    margin-top: 12px;
     font-size: 1.2rem;
     font-weight: 700;
-    margin: 22px 0 10px 0;
+    margin: 16px 0px 0px 0px;
     cursor: pointer;
     transition: background 0.2s;
 }
@@ -472,7 +478,7 @@ header {
 }
 .payment-icons {
     display: flex;
-    gap: 12px;
+    gap: 15px;
     align-items: center;
     margin-top: 8px;
     margin-bottom: 2px;
